@@ -1,81 +1,26 @@
+/* IMPORTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+    --main: #009fdb;
+    --secondary: grey;
+    --third: pink;
+}
+
+
 /* GENERAL STYLES */
 
 body {
     margin: 0px;
-  }
-  
-  /* STYLE NAVBAR  */
-  #hamburger {
-    width: 30px;
-    height: 30px;
-    display: none;
-    border: none;
-    background: linear-gradient(
-      to bottom,
-      black,
-      black 20%,
-      white 20%,
-      white 40%,
-      black 40%,
-      black 60%,
-      white 60%,
-      white 80%,
-      black 80%,
-      black 100%
-    );
-  }
-  #navbar {
-    display: inline-flex;
-    background-color: grey;
-    width: 100%;
-    padding: 0em 1.5em 0em 1.5em;
-  }
-  #navbar ul {
-   display: inline-flex;
-   list-style: none;
-   margin-top: 0px;
-   margin-bottom: 0px;
-   padding-left: 0px;
-  }
-  #navbar h1 {
-    margin-top: 25px;
-    margin-right: 2em;
-  }
-  #navbar ul li {
-    margin: 2em;
-    margin-left: 0px;
-  }
-  #navbar ul li ul {
-    display: none;
-  }
-  #navbar ul li:hover ul {
-       display: block;
-       position: fixed;
-       z-index: 2;
-     }
-  
-   @media screen and (max-width: 750px) {
-     #navbar {
-       display: flex;
-       justify-content: flex-end;
-     }
-     #hamburger {
-       display: block;
-       margin: 2em;
-       margin-right: 4em;
-     }
-     #navbar ul {
-       padding-top: 50px;
-       display: none;
-     }
-     #navbar ul li {
-       line-height: 20px;
-     }
-     #hamburger:hover + ul {
-       display: block;
-       position: fixed;
-       z-index: 2;
-     }
+    font-family: 'Open Sans', sans-serif;
   }
 
-  /* END OF NAVBAR */
+p {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 24px;
+    color: var(--third);
+}
