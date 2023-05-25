@@ -1,3 +1,0 @@
-// JS
-
-console.log("ok");
